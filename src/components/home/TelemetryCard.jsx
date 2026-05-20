@@ -6,7 +6,7 @@ const ALBUM_COVER = 'https://media.base44.com/images/public/6a0ae0fbe68a76367d0f
 export default function TelemetryCard() {
   return (
     <Link to="/telemetry">
-      <BentoCard className="col-span-2 md:col-span-1 p-0 overflow-hidden" delay={0.45}>
+      <BentoCard className="col-span-1 p-0 overflow-hidden" delay={0.45}>
         <div className="relative h-full min-h-[200px]">
           <img
             src={ALBUM_COVER}

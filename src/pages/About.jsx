@@ -11,7 +11,7 @@ export default function About() {
       <Timeline />
       <Credentials />
       <Roadshow />
-      <InTheWild />
+      <IntheWild />
     </div>
   );
 }

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 export default function GardenCard() {
   return (
     <Link to="/garden">
-      <BentoCard className="col-span-1 p-6" delay={0.35}>
+      <BentoCard className="col-span-1 p-6 min-h-[160px]" delay={0.35}>
         <span className="inline-block px-3 py-1 rounded-full border border-border text-[10px] font-mono tracking-[0.2em] uppercase text-muted-foreground w-fit">
           Digital Garden
         </span>
