@@ -4,12 +4,12 @@ import { Link } from 'react-router-dom';
 export default function GuestbookCard() {
   return (
     <Link to="/guestbook">
-      <BentoCard className="col-span-2 md:col-span-1 p-6" delay={0.4}>
+      <BentoCard className="col-span-1 p-5" delay={0.4}>
         <span className="inline-block px-3 py-1 rounded-full border border-border text-[10px] font-mono tracking-[0.2em] uppercase text-muted-foreground w-fit">
           Guestbook
         </span>
-        <div className="mt-6">
-          <p className="text-sm text-foreground/80 italic leading-relaxed">
+        <div className="mt-5">
+          <p className="text-xs md:text-sm text-foreground/80 italic leading-relaxed">
             "Pardon me, but I must say, I find you quite the epitome of coolness."
           </p>
           <p className="mt-3 text-xs font-mono text-muted-foreground/70 tracking-wider">
