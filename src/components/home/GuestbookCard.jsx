@@ -10,10 +10,10 @@ export default function GuestbookCard() {
         </span>
         <div className="mt-5">
           <p className="text-xs md:text-sm text-foreground/80 italic leading-relaxed">
-            "Pardon me, but I must say, I find you quite the epitome of coolness."
+            "Great work on the open source contributions. Keep it up!"
           </p>
           <p className="mt-3 text-xs font-mono text-muted-foreground/70 tracking-wider">
-            anon • 3yr
+            anon • 1yr
           </p>
         </div>
       </BentoCard>

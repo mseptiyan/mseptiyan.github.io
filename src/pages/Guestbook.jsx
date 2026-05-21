@@ -2,11 +2,11 @@ import { motion } from 'framer-motion';
 import { MessageSquare } from 'lucide-react';
 
 const entries = [
-  { message: "Pardon me, but I must say, I find you quite the epitome of coolness.", author: 'anon', time: '3yr' },
-  { message: "Incredible portfolio! The attention to detail is remarkable.", author: 'visitor', time: '2yr' },
-  { message: "Great work on the open source contributions. Keep it up!", author: 'dev', time: '1yr' },
+  { message: "Incredible portfolio! The attention to detail is remarkable.", author: 'dev', time: '1yr' },
+  { message: "Great work on the open source contributions. Keep it up!", author: 'anon', time: '1yr' },
   { message: "Your speaking events are inspiring. Hope to see you at more conferences!", author: 'fan', time: '6mo' },
-  { message: "The Hokkien dictionary project is a beautiful tribute to cultural heritage.", author: 'linguist', time: '3mo' },
+  { message: "The AI projects here are seriously impressive. Love the clean implementation.", author: 'theo', time: '2mo' },
+  { message: "Stumbled across this site and couldn't stop scrolling. The UI is clean and the projects are legit.", author: 'hekal', time: '3wk' },
 ];
 
 export default function Guestbook() {
