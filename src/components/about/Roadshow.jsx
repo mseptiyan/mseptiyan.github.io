@@ -87,7 +87,7 @@ export default function Roadshow() {
 
                   <div className="flex-1">
                     <h3 className="text-foreground font-medium leading-relaxed">
-                      <span className="text-yellow-400">
+                      <span className="text-orange-400">
                         {yellowPart}
                       </span>
 
