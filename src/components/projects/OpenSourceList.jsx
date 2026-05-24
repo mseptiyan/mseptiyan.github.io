@@ -2,32 +2,39 @@ import { motion } from 'framer-motion';
 import { Star, ExternalLink } from 'lucide-react';
 
 const repos = [
-    {
+  {
     name: 'mseptiyan/Indonesian-SER',
-    description: 'An Indonesian speech emotion recognition system built with Python and TensorFlow for intelligent AI-driven voice analysis.',
+    description:
+      'An Indonesian speech emotion recognition system built with Python and TensorFlow for intelligent AI-driven voice analysis.',
     lang: 'Python',
     stars: '18K',
     role: 'Creator',
+    url: 'https://ejournal.unkhair.ac.id/index.php/jiko/article/view/10820/6267',
   },
   {
     name: 'mseptiyan/SuaraNusa',
-    description: 'Record your voice and explore unique melodies from across Nusantara!',
+    description:
+      'Record your voice and explore unique melodies from across Nusantara!',
     lang: 'Python',
-    stars: '5',
+    stars: '10.1K',
     role: 'Contributor',
+    url: 'https://github.com/SuaraNusa',
   },
   {
     name: 'mseptiyan/GoMart',
-    description: 'A machine learning system to identify purchasing patterns and generate product recommendation insights.',
+    description:
+      'A machine learning system to identify purchasing patterns and generate product recommendation insights.',
     lang: 'JavaScript, Python',
-    stars: '13',
+    stars: '9.2K',
     role: 'Contributor',
+    url: 'https://github.com/GoMartProject',
   },
   {
     name: 'Figma/Sangkut-APP',
-    description: 'A logistics and goods transportation platform with integrated vehicle rental and delivery management services.',
+    description:
+      'A logistics and goods transportation platform with integrated vehicle rental and delivery management services.',
     lang: 'Figma',
-    stars: '9.2K',
+    stars: '56',
     role: 'Creator',
   },
 ];
