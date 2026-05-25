@@ -1,7 +1,6 @@
 import { motion } from 'framer-motion';
 import ProjectCard from '../components/projects/ProjectCard';
 import OpenSourceList from '../components/projects/OpenSourceList';
-import { Link } from 'react-router-dom';
 import { ArrowRight } from 'lucide-react';
 
 import NUSA_IMG from '@/assets/ssproject/suaranusa.png';
@@ -19,6 +18,7 @@ const projects = [
     image: SER_IMG,
     lang: 'Python',
     stars: '315',
+    url: 'https://github.com/mseptiyan/Indonesian-SER',
   },
   {
     title: 'GoMart',
@@ -27,6 +27,7 @@ const projects = [
     image: GO_IMG,
     lang: 'JavaScript, Python',
     stars: '100',
+    url: 'https://github.com/GoMartProject',
   },
   {
     title: 'SuaraNusa',
@@ -35,6 +36,7 @@ const projects = [
     image: NUSA_IMG,
     lang: 'Python',
     stars: '209',
+    url: 'https://github.com/SuaraNusa',
   },
   {
     title: 'Sang Pengangkut APP',
@@ -43,14 +45,16 @@ const projects = [
     image: SANGKUT_IMG,
     lang: 'JavaScript',
     stars: '8',
+    url: null, // tambahkan URL Figma atau GitHub-mu di sini
   },
   {
     title: 'Rewangi APP',
     description: 'A household service marketplace for booking cooking, cleaning, and daily assistance services.',
     tags: ['React', 'Node.js', 'UI/UX Design', 'Service App', 'REST API'],
     image: REWANG_IMG,
-    lang: 'JavaScipt',
+    lang: 'JavaScript',  // fix typo: JavaScipt → JavaScript
     stars: '5',
+    url: null, // tambahkan URL-mu di sini
   },
 ];
 
@@ -84,10 +88,15 @@ export default function Projects() {
           <p className="mt-2 text-sm text-muted-foreground">
             I've moved all my early tutorials, clones, and hackathon projects into a filterable database to keep this space focused on enterprise work.
           </p>
-          <button className="mt-4 inline-flex items-center gap-2 px-4 py-2 rounded-full border border-border text-sm text-foreground hover:bg-secondary transition-colors">
+          <a
+            href="https://github.com/mseptiyan?tab=repositories"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-4 inline-flex items-center gap-2 px-4 py-2 rounded-full border border-border text-sm text-foreground hover:bg-secondary transition-colors"
+          >
             View The Vault
             <ArrowRight className="w-4 h-4" />
-          </button>
+          </a>
         </div>
       </section>
     </div>
