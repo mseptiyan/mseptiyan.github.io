@@ -18,7 +18,7 @@ const projects = [
     image: SER_IMG,
     lang: 'Python',
     stars: '315',
-    url: 'https://github.com/mseptiyan/Indonesian-SER',
+    url: 'https://ejournal.unkhair.ac.id/index.php/jiko/article/view/10820/6267',
   },
   {
     title: 'GoMart',
