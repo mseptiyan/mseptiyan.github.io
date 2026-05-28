@@ -17,7 +17,7 @@ const experiences = [
     logo: sintaLogo,
   },
   {
-    title: 'Lead Recommendation System Developer',
+    title: 'Lead Developer',
     company: 'Dicoding',
     type: 'Capstone Project',
     period: 'Apr 2025 - Jun 2025',
