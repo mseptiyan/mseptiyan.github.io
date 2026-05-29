@@ -67,24 +67,26 @@ export default function AboutHero() {
 
 <div className="mt-6 text-foreground/90 leading-relaxed space-y-5 text-sm md:text-base">
   <p>
-    I am a{' '}
-    <strong>Machine Learning Engineer</strong>
-    {' '}who builds intelligent systems that transform raw business data into
-    meaningful and actionable solutions. Most recently, I contributed to applied
-    ML projects at{' '}
+    I am an{' '}
+    <strong>Information Systems graduate (Cum Laude, GPA 3.96/4.00)</strong>
+    {' '}with hands-on experience in data analysis, predictive modeling, and
+    business reporting. During my internship at{' '}
     <strong>PT Bank DBS Indonesia</strong>
-    {' '}spanning predictive analytics, recommendation systems, computer vision,
-    and NLP using Python and TensorFlow.
+    {' '}I worked with customer and business data to uncover patterns,
+    develop analytical solutions, and support data-driven decision making
+    through automated reporting and actionable insights.
   </p>
 
   <p>
-    As a <strong>Graduate with Distinction</strong> from Dicoding's Machine
-    Learning program and a{' '}
-    <strong>Best Product Track Capstone winner</strong>, I enjoy building
-    AI-driven products end-to-end from model training to the web interfaces
-    that bring them to life. When I'm not training models, you can find me
-    experimenting with UI/UX design, or exploring the latest in deep learning
-    and modern web technologies.
+    My expertise includes{' '}
+    <strong>Python, SQL, Excel, and data visualization</strong>
+    {' '}with experience in customer behavior analysis, recommendation
+    systems, and market trend exploration. As a{' '}
+    <strong>Graduate with Distinction</strong>
+    {' '}from Dicoding's Machine Learning program and a{' '}
+    <strong>Best Product Track Capstone Winner</strong>
+    , I combine strong analytical thinking with technical skills to
+    transform complex datasets into meaningful business value.
   </p>
 </div>
 

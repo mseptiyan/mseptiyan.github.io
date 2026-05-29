@@ -15,7 +15,7 @@ export default function HeroSection() {
       </h1>
 
       <p className="mt-5 text-base md:text-lg text-white/80 leading-relaxed max-w-md">
-        Machine Learning Engineer &amp; AI Enthusiast building intelligent systems, data-driven products, and modern web experiences.
+        Data Analyst & AI Enthusiast building intelligent systems, automated analytics, and data-driven business solutions.
       </p>
 
       <div className="mt-6 flex items-center gap-2">
