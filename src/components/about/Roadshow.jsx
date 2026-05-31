@@ -54,7 +54,7 @@ export default function Roadshow() {
 
         <p className="mt-2 text-sm text-muted-foreground">
           Engaging in nationwide workshops covering technology, generative AI,
-          data science, and professional development.
+          data analyst, and professional development.
         </p>
 
         <div className="mt-10 space-y-6">
