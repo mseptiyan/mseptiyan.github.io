@@ -13,7 +13,7 @@ export default function GuestbookCard() {
             "Great work on the open source contributions. Keep it up!"
           </p>
           <p className="mt-3 text-xs font-mono text-muted-foreground/70 tracking-wider">
-            anon • 1yr
+            anon • 5mon
           </p>
         </div>
       </BentoCard>

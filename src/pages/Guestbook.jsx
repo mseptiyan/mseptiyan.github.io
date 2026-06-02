@@ -3,7 +3,7 @@ import { MessageSquare } from 'lucide-react';
 
 const entries = [
   { message: "Incredible portfolio! The attention to detail is remarkable.", author: 'dev', time: '1yr' },
-  { message: "Great work on the open source contributions. Keep it up!", author: 'anon', time: '1yr' },
+  { message: "Great work on the open source contributions. Keep it up!", author: 'anon', time: '5mo' },
   { message: "Your speaking events are inspiring. Hope to see you at more conferences!", author: 'fan', time: '6mo' },
   { message: "The AI projects here are seriously impressive. Love the clean implementation.", author: 'theo', time: '2mo' },
   { message: "Stumbled across this site and couldn't stop scrolling. The UI is clean and the projects are legit.", author: 'hekal', time: '3wk' },
