@@ -18,10 +18,11 @@ export default function HeroSection() {
         href="https://www.linkedin.com/in/muhammad-septiyanto/"
         target="_blank"
         rel="noopener noreferrer"
-        className="mt-3 inline-flex items-center gap-2 text-white/70 hover:text-white transition-colors duration-300 w-fit group"
+        className="mt-3 inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-[#0A66C2] hover:bg-[#0856a8] transition-colors duration-300 w-fit"
         aria-label="LinkedIn Muhammad Septiyanto"
       >
-        <Linkedin className="w-6 h-6 text-white group-hover:text-blue-400 transition-colors duration-300" strokeWidth={1.5} />
+        <Linkedin className="w-4 h-4 text-white" strokeWidth={2} />
+        <span className="text-white text-xs font-mono tracking-wider">LinkedIn</span>
       </a>
 
       <p className="mt-5 text-base md:text-lg text-white/80 leading-relaxed max-w-md">
