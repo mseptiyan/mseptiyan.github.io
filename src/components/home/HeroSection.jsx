@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { ArrowRight, User } from 'lucide-react';
+import { ArrowRight, User, Linkedin } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 export default function HeroSection() {
@@ -13,6 +13,16 @@ export default function HeroSection() {
       <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-medium leading-[1.1] tracking-tight text-foreground">
         Muhammad<br />Septiyanto
       </h1>
+
+      <a
+        href="https://www.linkedin.com/in/muhammad-septiyanto/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="mt-3 inline-flex items-center gap-2 text-white/70 hover:text-white transition-colors duration-300 w-fit group"
+        aria-label="LinkedIn Muhammad Septiyanto"
+      >
+        <Linkedin className="w-6 h-6 text-white group-hover:text-blue-400 transition-colors duration-300" strokeWidth={1.5} />
+      </a>
 
       <p className="mt-5 text-base md:text-lg text-white/80 leading-relaxed max-w-md">
         Data Analyst & AI Enthusiast building intelligent systems, automated analytics, and data-driven business solutions.
